@@ -88,7 +88,7 @@ The arrival of the police will be much faster than the existing system.
 
  With the help of Computer Vision's Pose estimation technique, we identify the pose of criminal.​Pose estimation compares the posture of the person with the database and if it resembles a shooting posture, then object detection comes into play.​Object detection checks whether the suspected criminal is holding a weapon or not.​ If it detects a weapon, an alert is sent to the security department and the nearest police station. This happens if and only if both the above mentioned conditions are satisfied.
 
-    MediaPipe provides a robust solution capable of predicting thirty-three 3D landmarks on a human body in real-time with high accuracy even on CPU. It utilizes a two-step machine learning pipeline, by using a detector it first localizes the person within the frame and then uses the pose landmarks detector to predict the landmarks within the region of interest. 
+ MediaPipe provides a robust solution capable of predicting thirty-three 3D landmarks on a human body in real-time with high accuracy even on CPU. It utilizes a two-step machine learning pipeline, by using a detector it first localizes the person within the frame and then uses the pose landmarks detector to predict the landmarks within the region of interest. 
 
   4.2.2.Object detection: 
 
