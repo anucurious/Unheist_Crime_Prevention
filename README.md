@@ -84,13 +84,13 @@ The arrival of the police will be much faster than the existing system.
 
   This project uses three techniques to detect the crime-Pose Estimation​, Object Detection, and emotion recognition. 
 
-    4.2.1.Pose estimation: 
+   4.2.1.Pose estimation: 
 
     With the help of Computer Vision's Pose estimation technique, we identify the pose of criminal.​Pose estimation compares the posture of the person with the database and if it resembles a shooting posture, then object detection comes into play.​Object detection checks whether the suspected criminal is holding a weapon or not.​ If it detects a weapon, an alert is sent to the security department and the nearest police station. This happens if and only if both the above mentioned conditions are satisfied.
 
     MediaPipe provides a robust solution capable of predicting thirty-three 3D landmarks on a human body in real-time with high accuracy even on CPU. It utilizes a two-step machine learning pipeline, by using a detector it first localizes the person within the frame and then uses the pose landmarks detector to predict the landmarks within the region of interest. 
 
-    4.2.2.Object detection: 
+  4.2.2.Object detection: 
 
 Object detection using Yolov5 can be used for crime detection by identifying and tracking individuals and objects in surveillance videos. Yolov5 is a popular machine learning algorithm for object detection, which uses a single convolution neural network to detect multiple objects in an image or video frame. 
 
